@@ -1,0 +1,30 @@
+ul {
+  width: 100%;
+  height: 100%;
+}
+
+.todo_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--dark);
+  margin-bottom: 0.5rem;
+}
+
+.todo_item span {
+  font-size: 1.7rem;
+  letter-spacing: 0.13rem;
+  padding: 0.5rem 0.8rem;
+  color: var(--light);
+  text-align: center;
+}
+
+.btn--delete {
+  background: var(--accent);
+  color: var(--accent-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+  text-transform: uppercase;
+}
